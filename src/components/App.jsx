@@ -5,7 +5,6 @@ import Filter from './Filter/Filter';
 import ContactForm from './ContactForm/ContactForm';
 import css from './App.module.css';
 
-
 class App extends Component {
   state = {
     contacts: [
@@ -16,6 +15,7 @@ class App extends Component {
   ],
     filter: ''
   }
+  //check
   
   changeFilter = e => {
     this.setState({ ...this.state, filter: e.target.value });
